@@ -137,6 +137,8 @@ The application will open in your default browser at `http://localhost:8501`
 4. **System Info** tab:
    - View system statistics and configuration
 
+Documents  used to populate the knowledge base for this project are included in the `knowledge base docs` folder.
+
 ## 🧪 Testing
 
 ### Latency Testing
