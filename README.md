@@ -56,7 +56,7 @@ Test your disaster preparedness knowledge with interactive scenarios
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/m-deb-16 RAG-based-Disaster-Literacy-System.git
    cd RAG-Proj
    ```
 
