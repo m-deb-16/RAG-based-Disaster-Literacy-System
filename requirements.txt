@@ -1,0 +1,51 @@
+# Core Framework
+streamlit==1.50.0
+python-dotenv==1.0.0
+
+# Document Processing & OCR (References: Lines 29-33 of spec)
+PyPDF2==3.0.1
+# pdfplumber==0.10.3
+pdfplumber==0.11.7
+# pytesseract==0.3.10
+pytesseract==0.3.13
+Pillow==11.3.0
+# pdf2image==1.16.3
+pdf2image==1.17.0
+
+# Text Processing
+langdetect==1.0.9
+# nltk==3.8.1
+nltk==3.9.2
+
+# Embeddings & Vector Store (References: Lines 37-40, 100-101, 246 of spec)
+sentence-transformers==2.3.1
+faiss-cpu==1.12.0
+hnswlib==0.8.0
+
+# LLM Integration (References: Lines 88-89, 102-106, 248 of spec)
+# For offline LLM support
+transformers==4.37.2
+torch==2.8.0
+accelerate==0.26.1
+ctransformers==0.2.27
+llama-cpp-python==0.2.90
+
+# For online API support
+openai==1.12.0
+anthropic==0.18.1
+google-generativeai==0.8.5
+
+# Utilities
+numpy==2.3.3
+pandas==2.3.3
+tqdm==4.66.1
+loguru==0.7.2
+
+# Development
+pytest==8.0.0
+black==24.1.1
+
+# Note: Tesseract OCR binary needs to be installed separately
+# Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+# Linux: sudo apt-get install tesseract-ocr
+# Mac: brew install tesseract

@@ -1,0 +1,186 @@
+# ============================================================
+# Disaster Literacy RAG System - Git Ignore
+# ============================================================
+
+# ============================================================
+# SENSITIVE FILES - NEVER COMMIT
+# ============================================================
+.env
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+
+# ============================================================
+# PYTHON
+# ============================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ============================================================
+# PROJECT-SPECIFIC
+# ============================================================
+# Data directories
+data/kb_documents/*
+!data/kb_documents/.gitkeep
+data/vector_store/*
+!data/vector_store/.gitkeep
+data/kb_metadata.json
+
+# Temporary upload directory
+temp_upload/
+*.tmp
+
+# Downloaded models (large files)
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
+!models/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# ============================================================
+# IDE / EDITORS
+# ============================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================
+# STREAMLIT
+# ============================================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ============================================================
+# MISC
+# ============================================================
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Documentation builds
+docs/_build/
+site/
